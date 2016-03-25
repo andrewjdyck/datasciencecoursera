@@ -60,7 +60,7 @@ acc_gbm <- sum(pred_gbm == testing$diagnosis)/length(pred_gbm)
 acc_lda <- sum(pred_lda == testing$diagnosis)/length(pred_lda)
 acc_comb <- sum(pred_comb == combined_data$diagnosis)/length(pred_comb)
 
-# Ans: Stacked Accuracy: 0.80 
+# Ans: Stacked Accuracy: 0.80 ; LDA & RF are the same.
 
 # Q3
 set.seed(3523)
